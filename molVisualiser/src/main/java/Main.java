@@ -53,7 +53,7 @@ public class Main {
         // sample start-up script
 
 //        String strError = jmolPanel.viewer.openFile("http://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=pdb&compression=NO&structureId=3GMU");
-        String strError = jmolPanel.viewer.openFile("C:\\Users\\Evgeni Developer\\Desktop\\ЧМИ\\1100118.cif");
+        String strError = jmolPanel.viewer.openFile("molecules\\butane.cml");
         if (strError == null){
             /*HERE IS WHERE THE ACTUAL JMOL COMMANDS TAKE PLACE*/
             jmolPanel.viewer.evalString(strScript);
