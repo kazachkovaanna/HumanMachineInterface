@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Java template
 *.class
 .idea
@@ -14,3 +15,8 @@
 hs_err_pid*
 
 # Created by .ignore support plugin (hsz.mobi)
+=======
+/3dexample/nbproject/private/
+/3dexample/dist/
+/3dexample/build/
+>>>>>>> origin/3dexample
