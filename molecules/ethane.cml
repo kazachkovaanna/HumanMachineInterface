@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+<language>UTF-8</language>
+<page_title>The stereochemistry of ethane</page_title>
+<text>The stereochemistry of ethane
+
+Stereochemistry is a subdiscipline of chemistry that involves the study of the relative spatial arrangement of atoms within molecules. Alkane stereochemistry concerns the stereochemistry of linear alkanes and the linear alkane conformers. Ethane is a classical example to study stereochemistry (see also butane). Ethane can have two possible conformations, the staggered conformation and the eclipsed conformation, which are shown below:
+
+  
+[Left: staggered conformation. Right: eclipsed conformation. Both are Newman projection. Image source: Wikipedia]
+
+The staggered conformation of ethane is more stable by 12.5 kJ/mol than the eclipsed one. In fact, the staggered conformation corresponds to the energy minimum of alkane and the eclipsed one to the energy maximum. The rotation barrier between the two conformations, known as rotamers, is the energy difference between two conformations. The higher the temperature is, the more easily the rotation barrier can be overcome.
+
+The following experiment is set up for you to explore the conformational dynamics of the ethane molecule.
+
+ 
+   
+ 
+   
+    
+
+Instruction: Please use the Heat and Cool Button above to heat and cool the system. You can also press the Energy Curves Button to view the potential energy, the kinetic energy and the total energy as a function of time.
+
+ 
+When you cool the system down to low temperature, the ethane molecules will remain at the staggered conformation, which is the ground state.
+ 
+
+Model Note: We use two ethane molecules that are oriented differently to show the internal rotation about the C-C sigma bond from different angles. We have fixed all the carbon atoms and some hydrogen atoms, leaving only one methyl group of each ethane molecule movable. This allows us to add heat energy directly to the internal rotation. Otherwise, the heat energy will be equipartitioned among all degrees of freedom and we will see translation and rotation as a whole, which may make the simulation harder to understand (this simulation illustrates this). Please be advised that this is ONLY a pedagogical treatment and NOT what happens in reality.</text>
+<section start="0" end="2157">
+<paragraph start="0" end="30">
+<Alignment>1</Alignment>
+<content start="0" end="29">
+<size>15</size><bold>true</bold></content>
+
+<content start="29" end="30">
+</content>
+
+</paragraph>
+<paragraph start="30" end="31">
+<content start="30" end="31">
+</content>
+
+</paragraph>
+<paragraph start="31" end="469">
+<LeftIndent>10.0</LeftIndent>
+<content start="31" end="46">
+<italic>true</italic></content>
+
+<content start="46" end="335">
+</content>
+
+<content start="335" end="341">
+<href>butane.cml</href></content>
+
+<content start="341" end="392">
+</content>
+
+<content start="392" end="414">
+<italic>true</italic></content>
+
+<content start="414" end="423">
+</content>
+
+<content start="423" end="444">
+<italic>true</italic></content>
+
+<content start="444" end="469">
+</content>
+
+</paragraph>
+<paragraph start="469" end="470">
+<LeftIndent>10.0</LeftIndent>
+<content start="469" end="470">
+</content>
+
+</paragraph>
+<paragraph start="470" end="473">
+<Alignment>1</Alignment>
+<content start="470" end="471">
+</content>
+
+<content start="471" end="472">
+<icon>staggeredeclipsed.gif</icon></content>
+
+<content start="472" end="473">
+</content>
+
+</paragraph>
+<paragraph start="473" end="587">
+<Alignment>1</Alignment>
+<content start="473" end="586">
+<size>10</size></content>
+
+<content start="586" end="587">
+</content>
+
+</paragraph>
+<paragraph start="587" end="588">
+<content start="587" end="588">
+</content>
+
+</paragraph>
+<paragraph start="588" end="1010">
+<RightIndent>10.0</RightIndent>
+<LeftIndent>10.0</LeftIndent>
+<content start="588" end="863">
+</content>
+
+<content start="863" end="871">
+<italic>true</italic></content>
+
+<content start="871" end="1010">
+</content>
+
+</paragraph>
+<paragraph start="1010" end="1011">
+<RightIndent>10.0</RightIndent>
+<LeftIndent>10.0</LeftIndent>
+<content start="1010" end="1011">
+</content>
+
+</paragraph>
+<paragraph start="1011" end="1117">
+<RightIndent>10.0</RightIndent>
+<LeftIndent>10.0</LeftIndent>
+<content start="1011" end="1117">
+</content>
+
+</paragraph>
+<paragraph start="1117" end="1118">
+<RightIndent>10.0</RightIndent>
+<LeftIndent>10.0</LeftIndent>
+<content start="1117" end="1118">
+</content>
+
+</paragraph>
+<paragraph start="1118" end="1120">
+<RightIndent>10.0</RightIndent>
+<Alignment>1</Alignment>
+<content start="1118" end="1119">
+<icon><class>org.concord.modeler.text.LineIcon</class><width>520.0</width><height>36</height><arcwidth>20</arcwidth><archeight>18</archeight><cornerarc>5</cornerarc><title>&lt;html&gt;&lt;font face=&quot;Verdana&quot; size=&quot;4&quot; color=&quot;#ffffff&quot;&gt;&lt;b&gt;&lt;center&gt;Seeing the rotation barrier of ethane&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</title><bgcolor>-cc3400</bgcolor></icon></content>
+
+<content start="1119" end="1120">
+</content>
+
+</paragraph>
+<paragraph start="1120" end="1124">
+<RightIndent>10.0</RightIndent>
+<Alignment>1</Alignment>
+<content start="1120" end="1121">
+<icon><class>org.concord.modeler.text.LineIcon</class><width>10.0</width><height>250</height><bgcolor>-cc3400</bgcolor></icon></content>
+
+<content start="1121" end="1122">
+<component><class>org.concord.modeler.PageMd3d</class><resource>ethane$0.mdd</resource><coordinate>ethane$0.xyz</coordinate><width>500</width><height>250</height><menubar>false</menubar><toolbar>false</toolbar><statusbar>false</statusbar><border>Line</border>
+</component></content>
+
+<content start="1122" end="1123">
+<icon><class>org.concord.modeler.text.LineIcon</class><width>10.0</width><height>250</height><bgcolor>-cc3400</bgcolor></icon></content>
+
+<content start="1123" end="1124">
+</content>
+
+</paragraph>
+<paragraph start="1124" end="1126">
+<RightIndent>10.0</RightIndent>
+<Alignment>1</Alignment>
+<content start="1124" end="1125">
+<icon><class>org.concord.modeler.text.LineIcon</class><width>520.0</width><height>50</height><arcwidth>250</arcwidth><archeight>10</archeight><cornerarc>10</cornerarc><title>&lt;html&gt;&lt;center&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot; color=&quot;#ffffff&quot;&gt;&lt;b&gt;The rotation barrier between the staggered conformation and the eclipsed conformation can be overcome by adding heat.&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</title><bgcolor>-cc3400</bgcolor></icon></content>
+
+<content start="1125" end="1126">
+</content>
+
+</paragraph>
+<paragraph start="1126" end="1130">
+<RightIndent>10.0</RightIndent>
+<Alignment>1</Alignment>
+<content start="1126" end="1127">
+<component><class>org.concord.modeler.PageButton</class>
+<title>Run</title>
+<border>Raised Bevel</border>
+<modelclass>org.concord.modeler.PageMd3d</modelclass>
+<model>0</model>
+<continuous_fire>true</continuous_fire>
+<action>Run the model</action>
+</component></content>
+
+<content start="1127" end="1128">
+<component><class>org.concord.modeler.PageButton</class>
+<title>Stop</title>
+<border>Raised Bevel</border>
+<modelclass>org.concord.modeler.PageMd3d</modelclass>
+<model>0</model>
+<continuous_fire>true</continuous_fire>
+<action>Stop</action>
+</component></content>
+
+<content start="1128" end="1129">
+<component><class>org.concord.modeler.PageButton</class>
+<title>Reset</title>
+<border>Raised Bevel</border>
+<modelclass>org.concord.modeler.PageMd3d</modelclass>
+<model>0</model>
+<continuous_fire>true</continuous_fire>
+<action>Reset</action>
+</component></content>
+
+<content start="1129" end="1130">
+</content>
+
+</paragraph>
+<paragraph start="1130" end="1135">
+<RightIndent>10.0</RightIndent>
+<Alignment>1</Alignment>
+<content start="1130" end="1131">
+<component><class>org.concord.modeler.PageButton</class>
+<title>Heat</title>
+<border>Raised Bevel</border>
+<modelclass>org.concord.modeler.PageMd3d</modelclass>
+<model>0</model>
+<continuous_fire>true</continuous_fire>
+<action>Heat</action>
+</component></content>
+
+<content start="1131" end="1132">
+<component><class>org.concord.modeler.PageButton</class>
+<title>Cool</title>
+<border>Raised Bevel</border>
+<modelclass>org.concord.modeler.PageMd3d</modelclass>
+<model>0</model>
+<continuous_fire>true</continuous_fire>
+<action>Cool</action>
+</component></content>
+
+<content start="1132" end="1133">
+<component><class>org.concord.modeler.PageButton</class>
+<title>Snapshot</title>
+<border>Raised Bevel</border>
+<modelclass>org.concord.modeler.PageMd3d</modelclass>
+<model>0</model>
+<action>Take a snapshot</action>
+</component></content>
+
+<content start="1133" end="1134">
+<component><class>org.concord.modeler.PageButton</class>
+<title>Energy Curves</title>
+<border>Raised Bevel</border>
+<modelclass>org.concord.modeler.PageMd3d</modelclass>
+<model>0</model>
+<action>Show kinetic, potential and total energies</action>
+</component></content>
+
+<content start="1134" end="1135">
+</content>
+
+</paragraph>
+<paragraph start="1135" end="1136">
+<RightIndent>10.0</RightIndent>
+<content start="1135" end="1136">
+</content>
+
+</paragraph>
+<paragraph start="1136" end="1357">
+<LeftIndent>10.0</LeftIndent>
+<content start="1136" end="1148">
+<bold>true</bold></content>
+
+<content start="1148" end="1357">
+</content>
+
+</paragraph>
+<paragraph start="1357" end="1358">
+<LeftIndent>10.0</LeftIndent>
+<content start="1357" end="1358">
+</content>
+
+</paragraph>
+<paragraph start="1358" end="1360">
+<LeftIndent>10.0</LeftIndent>
+<content start="1358" end="1359">
+<icon><class>org.concord.modeler.text.LineIcon</class><width>0.98</width><height>1</height><bgcolor>-1000000</bgcolor></icon></content>
+
+<content start="1359" end="1360">
+</content>
+
+</paragraph>
+<paragraph start="1360" end="1501">
+<RightIndent>50.0</RightIndent>
+<Alignment>1</Alignment>
+<LeftIndent>50.0</LeftIndent>
+<content start="1360" end="1501">
+</content>
+
+</paragraph>
+<paragraph start="1501" end="1503">
+<LeftIndent>10.0</LeftIndent>
+<content start="1501" end="1502">
+<icon><class>org.concord.modeler.text.LineIcon</class><width>0.98</width><height>1</height><bgcolor>-1000000</bgcolor></icon></content>
+
+<content start="1502" end="1503">
+<bold>true</bold></content>
+
+</paragraph>
+<paragraph start="1503" end="1504">
+<LeftIndent>10.0</LeftIndent>
+<content start="1503" end="1504">
+<bold>true</bold></content>
+
+</paragraph>
+<paragraph start="1504" end="2157">
+<LeftIndent>10.0</LeftIndent>
+<content start="1504" end="1514">
+<bold>true</bold></content>
+
+<content start="1514" end="2029">
+</content>
+
+<content start="2029" end="2044">
+<href>ethane2.cml</href></content>
+
+<content start="2044" end="2156">
+</content>
+
+</paragraph>
+</section>
+</document>
