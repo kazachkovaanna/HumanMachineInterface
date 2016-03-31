@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="1024.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="cmi.gui.controllers.FXMLMainCostructorController">
+    <stylesheets>
+        <URL value="@fxmlmaincostructor.css" />
+    </stylesheets>
+   <children>
+      <Button layoutX="378.0" layoutY="359.0" minWidth="200.0" mnemonicParsing="false" text="Выход" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="50.0" />
+      <Label alignment="CENTER" layoutX="436.0" layoutY="63.0" text="Собери молекулу из атомов" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0" />
+   </children>
+</AnchorPane>
