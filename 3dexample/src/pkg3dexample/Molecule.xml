@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule name ="Метан">
+    <atom id="a1" type="C"></atom>
+    <atom id="a2" type="H"></atom>
+    <atom id="a3" type="H"></atom>
+    <atom id="a4" type="H"></atom>
+    <atom id="a5" type="H"></atom>
+    <links>
+        <link from="a1" to="a2"></link>
+        <link from="a1" to="a3"></link>
+        <link from="a1" to="a4"></link>
+        <link from="a1" to="a5"></link>
+    </links>
+    
+</molecule>
