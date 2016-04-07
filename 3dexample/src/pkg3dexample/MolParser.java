@@ -32,6 +32,7 @@ public class MolParser extends DefaultHandler {
     private SAXParserFactory factory;
     private SAXParser parser;
     private AtomParser atp;
+    private boolean finish;
 
     @Override 
     public void startDocument() throws SAXException { 
@@ -64,21 +65,29 @@ public class MolParser extends DefaultHandler {
                 }   catch (IOException ex) {                
                 }
                 Atom atm = atp.getAtom();
+                atm.setType(type);
                 if(type.equals("C")) atm.setColor(Color.BLACK);
                 atoms.put(id, atm);
                 break;
             case "link":
                 String from = attributes.getValue(0);
                 String to = attributes.getValue(1);
+                Atom toAtm = atoms.get(to);
                 ArrayList al = molecule.get(from);
                 if(al== null){
                     al = new ArrayList();
-                    al.add(to);
+                    al.add(toAtm);
+                    molecule.put(from, al);
                 }
                 else{
-                    al.add(to);
+                    al.add(toAtm);
+                    molecule.replace(from, al);
                 }
-                molecule.replace(from, al);
+                if(molecule.get(to)== null){
+                    ArrayList a = new ArrayList();
+                    a.add(atoms.get(from));
+                    molecule.put(to, a);
+                }
                 break;
         
         }

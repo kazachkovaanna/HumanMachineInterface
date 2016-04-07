@@ -60,28 +60,14 @@ public class Main extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        SAXParserFactory factory = SAXParserFactory.newInstance();
-        SAXParser parser = factory.newSAXParser();
-        MolParser mparser = new MolParser();
-        File f = new File("./build/classes/pkg3dexample/Molecule.xml");
-        parser.parse(f, mparser);
-        atoms = mparser.getAtoms();
-        molecule = mparser.getMolecule();
-        setGroup();
-        primaryStage = stage;
-        Scene scene = new Scene(atomsGroup, 600, 600);
-
-        primaryStage.setTitle("3D JavaFX");
-        primaryStage.setScene(scene);
-        primaryStage.show();
-        PerspectiveCamera camera =
-        new PerspectiveCamera(true);
-        camera.setNearClip(0.1);
-        camera.setFarClip(1000.0);
-        camera.setTranslateZ(-1000);
-        camera.setTranslateX(100);
-        camera.setTranslateY(100);
-        scene.setCamera(camera);
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = loader.load();      
+        FXMLDocumentController controller = loader.getController();
+        Scene scene = new Scene(root);
+        scene.setRoot(root);
+        stage.setScene(scene);
+        stage.show();
+        controller.init(scene);
     }
 
     /**

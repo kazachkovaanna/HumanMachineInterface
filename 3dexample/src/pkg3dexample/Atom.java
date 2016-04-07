@@ -17,6 +17,8 @@ public class Atom {
     private Color color;
     private int valency;
     private String id;
+    private String type;
+
 
     private double x, y;
     
@@ -32,6 +34,13 @@ public class Atom {
         valency = 1;
     }
     
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
     public double getX() {
         return x;
     }
