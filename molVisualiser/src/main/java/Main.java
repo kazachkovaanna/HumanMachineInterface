@@ -50,14 +50,8 @@ public class Main {
         contentPane.add(panel);
         frame.setVisible(true);
 
-        // sample start-up script
-
-//        String strError = jmolPanel.viewer.openFile("http://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=pdb&compression=NO&structureId=3GMU");
-<<<<<<< HEAD
         String strError = jmolPanel.viewer.openFile("1100118.cif");
-=======
-        String strError = jmolPanel.viewer.openFile("molecules\\butane.cml");
->>>>>>> origin/master
+
         if (strError == null){
             /*HERE IS WHERE THE ACTUAL JMOL COMMANDS TAKE PLACE*/
             jmolPanel.viewer.evalString(strScript);
