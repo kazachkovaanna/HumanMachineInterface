@@ -7,12 +7,15 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="1024.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="cmi.gui.controllers.FXMLMainCostructorController">
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="1024.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cmi.gui.controllers.FXMLMainCostructorController">
     <stylesheets>
         <URL value="@fxmlmaincostructor.css" />
     </stylesheets>
    <children>
       <Button layoutX="378.0" layoutY="359.0" minWidth="200.0" mnemonicParsing="false" text="Выход" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="50.0" />
       <Label alignment="CENTER" layoutX="436.0" layoutY="63.0" text="Собери молекулу из атомов" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0" />
+      <Button layoutX="552.0" layoutY="548.0" minWidth="200.0" mnemonicParsing="false" text="Показать модель" />
+      <Button layoutX="393.0" layoutY="435.0" minWidth="200.0" mnemonicParsing="false" text="Соединить" />
+      <Label layoutX="145.0" layoutY="143.0" prefHeight="238.0" prefWidth="708.0" text="Поле сборки формул молекул" />
    </children>
 </AnchorPane>
